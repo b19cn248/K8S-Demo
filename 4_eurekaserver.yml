@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: eurekaserver
-        image: b19dccn248/eurekaserver:s12
+        image: b19dccn248/eurekaserver:s20
         ports:
         - containerPort: 8070
         env:

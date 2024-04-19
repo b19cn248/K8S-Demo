@@ -15,6 +15,6 @@ data:
   KEYCLOAK_ADMIN: admin
   KEYCLOAK_ADMIN_PASSWORD: admin
   SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_JWK-SET-URI: "http://keycloak:7080/realms/master/protocol/openid-connect/certs"
-  AUTH_SERVICE_URL: "http://gatewayserver:8072"
-  AUTHORIZATION_SERVER_URL: "http://keycloak:7080/realms/master/protocol/openid-connect/auth"
-  TOKEN_SERVER_URL: "http://keycloak:7080/realms/master/protocol/openid-connect/token"
+  AUTH_SERVICE_URL: "http://34.30.149.252:8072"
+  AUTHORIZATION_SERVER_URL: "http://34.30.74.186:7080/realms/master/protocol/openid-connect/auth"
+  TOKEN_SERVER_URL: "http://34.30.74.186:7080/realms/master/protocol/openid-connect/token"

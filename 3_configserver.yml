@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: configserver
-        image: b19dccn248/configserver:s12
+        image: b19dccn248/configserver:s20
         ports:
         - containerPort: 8071
 ---
