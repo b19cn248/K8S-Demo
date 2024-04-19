@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: cards
-        image: b19dccn248/cards:s20
+        image: b19dccn248/cards:s20.1
         ports:
         - containerPort: 9000
         env:

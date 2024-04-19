@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: loans
-        image: b19dccn248/loans:s20
+        image: b19dccn248/loans:s20.2
         ports:
         - containerPort: 8090
         env:

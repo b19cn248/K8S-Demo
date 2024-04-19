@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: accounts
-        image: b19dccn248/accounts:s20
+        image: b19dccn248/accounts:s20.1
         ports:
         - containerPort: 8080
         env:
